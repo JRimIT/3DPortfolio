@@ -66,8 +66,8 @@ jobs:
           port: 24700
           script: |
             # Create deployment folder
-            mkdir -p ~/app/portfolio-3d
-            cd ~/app/portfolio-3d
+            mkdir -p ~/Portfolio3D
+            cd ~/Portfolio3D
 
             # Fetch the latest docker-compose.yml
             curl -sSL -o docker-compose.yml https://raw.githubusercontent.com/${{ github.repository }}/main/docker-compose.yml
