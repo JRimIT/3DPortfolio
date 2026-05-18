@@ -100,29 +100,39 @@ export const projects = [
 
 export const testimonials = [
   {
-    quote: "Software Development Lifecycle.",
-    name: "Critically analyze software engineering development processes from our four selected development philosophies (traditional, secure, agile, and lean)",
+    quote: "User Experience Principles and Processes Specialization",
+    name: "Master UX design principles, user needs analysis, evaluating designs with users, concept to prototyping, and UX research at scale.",
+    title: "University of California, Irvine",
+  },
+  {
+    quote: "Certified Ethical Emerging Technologist Professional Certificate",
+    name: "Promote the ethical use of data-driven technologies, detect and mitigate ethical risks, and design ethical frameworks.",
+    title: "CertNexus",
+  },
+  {
+    quote: "Project Management Principles and Practices Specialization",
+    name: "Master professional project planning, budgeting, scheduling, risk management, and project execution.",
+    title: "University of California, Irvine",
+  },
+  {
+    quote: "Software Development Lifecycle Specialization",
+    name: "Explore processes & methodologies, Agile software development, Lean software development, and quality engineering practices.",
     title: "University of Minnesota",
   },
   {
-    quote: "Web Design for Everybody: Basics of Web Development & Coding.",
-    name: "Learn advanced styling with responsive design, HTML5 fundamentals, and interactivity with JavaScript. Explore the basics of CSS3 and complete your knowledge with the Web Design for Everybody Capstone, which consolidates skills in creating modern, interactive, and responsive websites. Perfect for aspiring web developers and designers.",
+    quote: "Web Design for Everybody: Basics of Web Development & Coding Specialization",
+    name: "Master HTML5, CSS3, JavaScript interactivity, advanced styling with responsive design, and capstone development.",
     title: "University of Michigan",
   },
   {
-    quote: "Computer Communications.",
-    name: "Understand the fundamentals of network communication, peer-to-peer protocols, and local area networks. Learn about packet switching networks and algorithms, and delve into TCP/IP and advanced topics. Essential for mastering networking concepts and technologies.",
+    quote: "Computer Communications Specialization",
+    name: "Understand network communications, peer-to-peer protocols, packet switching algorithms, and TCP/IP.",
     title: "University of Colorado System",
   },
   {
-    quote: "Meta Front-End Developer Professional.",
-    name: "Create a responsive website using HTML for content structure, CSS for visual styling, and JavaScript for interactive experiences. Learn React alongside JavaScript libraries and frameworks. Master Bootstrap CSS framework to design webpages, and work with GitHub repositories and version control. Prepare for coding interviews, learn problem-solving approaches, and build portfolio-ready projects to showcase during job interviews.",
-    title: "Meta Staff",
-  },
-  {
-    quote: "Meta Back-End Developer Professional.",
-    name: "Gain the technical skills required to become a qualified back-end developer. Learn programming systems including Python syntax, Linux commands, Git, SQL, version control, cloud hosting, APIs, JSON, XML, and more. Build a portfolio using your new skills and prepare for interviews with tips on what to expect for engineering jobs. Learn in-demand programming skills and how to confidently use code to solve problems.",
-    title: "Meta Staff",
+    quote: "Academic Skills for University Success Specialization",
+    name: "Develop digital literacy, critical thinking, problem-solving, and advanced academic communication skills.",
+    title: "The University of Sydney",
   },
 ];
 
