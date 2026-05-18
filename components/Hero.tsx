@@ -32,7 +32,7 @@ const Hero = () => {
           {/* Add image to the right corner */}
           <div className="absolute top-[-130px] md:top-[-80px]">
             <Image
-              src="/coderImage.jpeg"
+              src="https://res.cloudinary.com/dik41yelx/image/upload/v1779033770/rim_kpnoiq.jpg"
               alt="Profile Picture"
               width={200}
               height={200}
@@ -56,17 +56,13 @@ const Hero = () => {
               Hello, I&apos;m{" "}
               <TypeAnimation
                 sequence={[
-                  "Manh Dao.",
+                  "Duy Rim.",
                   1000,
-                  "ダオ・ドゥック・マン.",
+                  "グエン・ズイ・リム.",
                   1000,
-                  "Front-end Developer.",
+                  "WEB DEVELOPER.",
                   1000,
-                  "Web Developer.",
-                  1000,
-                  "Back-end Developer.",
-                  1000,
-                  "Content Creator.",
+                  "FULLSTACK-FRONTEND DEVELOPER.",
                   1000,
                 ]}
                 wrapper="span"

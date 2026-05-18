@@ -28,9 +28,9 @@ const Footer = () => {
           Copyright ©
           <span>
             <a
-              href="https://www.facebook.com/manhit2k3/"
+              href="https://www.facebook.com/DuyRim"
               className="hover:text-red-500">
-              StrongPeach
+              Duy Rim
             </a>
           </span>
         </p>

@@ -51,8 +51,8 @@ export const gridItems = [
 
   {
     id: 5,
-    title: "Currently building a JS Animation library",
-    description: "The Inside Scoop",
+    title: "Developing mobile apps: NoteMate & Travel Buddy with React Native",
+    description: "React Native & Expo",
     className: "md:col-span-3 md:row-span-2",
     imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
     titleClassName: "justify-center md:justify-start lg:justify-center",
@@ -74,35 +74,27 @@ export const gridItems = [
 export const projects = [
   {
     id: 1,
-    title: "Animated Apple Iphone 3D Website",
-    des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
-    img: "/p4.svg",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
-    link: "https://unique-otter-516e47.netlify.app/",
+    title: "TMOJ – Online Judge & Programming Education Platform",
+    des: "A comprehensive, multi-role online code compilation, grading, and programming education management system tailored for Admins, Managers, Teachers, and Students.",
+    img: "/projects/tmoj.png",
+    iconLists: ["/next.svg", "/re.svg", "/ts.svg", "/tail.svg", "/dock.svg"],
+    link: "https://www.tmoj.id.vn",
   },
   {
     id: 2,
-    title: "My Old Profile Website",
-    des: "A react website about me",
-    img: "/myOldWeb.png",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/gsap.svg", "/js.svg"],
-    link: "https://main--unique-longma-95028a.netlify.app/",
+    title: "NIKE SHOES ONLINE SYSTEM – E-Commerce Platform",
+    des: "A high-end, professional e-commerce platform for selling footwear, featuring comprehensive product, order, and user management modules.",
+    img: "/projects/nike.png",
+    iconLists: ["/re.svg", "/css3.svg", "/sass.svg", "/js.svg", "/dock.svg"],
+    link: "http://103.216.119.220:3000",
   },
   {
     id: 3,
-    title: "Movie Website",
-    des: "Modern movie website with minimal design, showcasing films and user reviews.",
-    img: "/movieApp.png",
-    iconLists: ["/html5.svg", "/css3.svg", "/js.svg", "/sass.svg", "/c.svg"],
-    link: "https://imaginative-seahorse-839600.netlify.app/",
-  },
-  {
-    id: 4,
-    title: "Link Shorten App",
-    des: "The Link Shorten App converts long URLs into short links for easy sharing. Features include user authentication, URL management, click tracking, and analytics, enhancing the usability and functionality of shared links.",
-    img: "/shotenLinkWeb.png",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/next.svg", "/js.svg"],
-    link: "https://github.com/mdao2211/link_app_2.0",
+    title: "FOODIE EXPRESS – Premium Food Delivery System",
+    des: "An end-to-end food delivery platform featuring a premium Glassmorphism UI, digital wallet system, and admin management console.",
+    img: "/projects/foodie.png",
+    iconLists: ["/js.svg", "/html5.svg", "/css3.svg", "/sass.svg"],
+    link: "https://103.216.119.220:8080",
   },
 ];
 
@@ -226,16 +218,16 @@ export const socialMedia = [
   {
     id: 1,
     img: "/git.svg",
-    link: "https://github.com/mdao2211",
+    link: "https://github.com/JRimIT",
   },
   {
     id: 2,
     img: "/facebook.svg",
-    link: "https://www.facebook.com/manhit2k3",
+    link: "https://www.facebook.com/DuyRim",
   },
   {
     id: 3,
     img: "/link.svg",
-    link: "https://www.linkedin.com/in/manh2211/",
+    link: "https://www.linkedin.com/in/nguyễn-duy-rim-335a68408",
   },
 ];
