@@ -52,9 +52,39 @@ export const BentoGridItem = ({
 }) => {
   const [copied, setCopied] = useState(false);
   const handleCopy = () => {
-    navigator.clipboard.writeText("rri603024@gmail.com");
+    const email = "rri603024@gmail.com";
+    if (navigator.clipboard && navigator.clipboard.writeText) {
+      navigator.clipboard.writeText(email)
+        .then(() => setCopied(true))
+        .catch((err) => {
+          console.error("Clipboard copy failed: ", err);
+          fallbackCopy(email);
+        });
+    } else {
+      fallbackCopy(email);
+    }
+  };
 
-    setCopied(true);
+  const fallbackCopy = (text: string) => {
+    const textArea = document.createElement("textarea");
+    textArea.value = text;
+    textArea.style.top = "0";
+    textArea.style.left = "0";
+    textArea.style.position = "fixed";
+    document.body.appendChild(textArea);
+    textArea.focus();
+    textArea.select();
+    try {
+      const successful = document.execCommand("copy");
+      if (successful) {
+        setCopied(true);
+      } else {
+        console.error("Fallback copy failed");
+      }
+    } catch (err) {
+      console.error("Fallback copy threw error: ", err);
+    }
+    document.body.removeChild(textArea);
   };
   return (
     <div
