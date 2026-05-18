@@ -34,11 +34,11 @@ const Hero = () => {
           {/* Add image to the right corner */}
           <div className="absolute top-[-130px] md:top-[-80px]">
             <Image
-              src="https://res.cloudinary.com/dik41yelx/image/upload/v1779033770/rim_kpnoiq.jpg"
+              src="/rim-avatar.png"
               alt="Profile Picture"
               width={200}
               height={200}
-              className="rounded-full shadow-lg"
+              className="rounded-full shadow-lg object-cover"
             />
           </div>
 
