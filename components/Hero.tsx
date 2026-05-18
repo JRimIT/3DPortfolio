@@ -6,7 +6,9 @@ import MagicButton from "./ui/MagicButton";
 import { FaUserSecret } from "react-icons/fa";
 import { TypeAnimation } from "react-type-animation";
 import Image from "next/image"; // Import Image component
-import Bot3D from "./Bot3D";
+import dynamic from "next/dynamic";
+
+const Bot3D = dynamic(() => import("./Bot3D"), { ssr: false });
 
 const Hero = () => {
   return (
@@ -41,7 +43,7 @@ const Hero = () => {
           </div>
 
           <div className="mt-20 md:mt-28 lg:mt-36">
-            <h2 className="uppercase tracking-widest text-xs text-center text-blue-100 max-w-80">
+            <h2 className="uppercase tracking-widest text-xs text-center text-blue-600 dark:text-blue-100 max-w-80 font-semibold">
               WELCOME TO MY PORTFOLIO
             </h2>
           </div>
