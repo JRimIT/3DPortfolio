@@ -86,7 +86,7 @@ export const projects = [
     des: "A high-end, professional e-commerce platform for selling footwear, featuring comprehensive product, order, and user management modules.",
     img: "/projects/nike.png",
     iconLists: ["/re.svg", "/css3.svg", "/sass.svg", "/js.svg", "/dock.svg"],
-    link: "http://103.216.119.220:3000",
+    link: "http://shoes.jrim.id.vn/",
   },
   {
     id: 3,
@@ -94,7 +94,7 @@ export const projects = [
     des: "An end-to-end food delivery platform featuring a premium Glassmorphism UI, digital wallet system, and admin management console.",
     img: "/projects/foodie.png",
     iconLists: ["/js.svg", "/html5.svg", "/css3.svg", "/sass.svg"],
-    link: "https://103.216.119.220:8080",
+    link: "https://food.jrim.id.vn/",
   },
 ];
 

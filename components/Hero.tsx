@@ -64,7 +64,7 @@ const Hero = () => {
                   1000,
                   "WEB DEVELOPER.",
                   1000,
-                  "FULLSTACK-FRONTEND DEVELOPER.",
+                  "FULLSTACK DEVELOPER.",
                   1000,
                 ]}
                 wrapper="span"
